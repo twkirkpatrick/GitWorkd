@@ -9,7 +9,6 @@ Gitworkd is a platform for hosting and exploring open source projects.  It is ea
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Screenshots](#screenshots)
 * [Resources](#resources)
 * [Contributions](#contributions)
 * [Testing](#testing)
