@@ -27,9 +27,24 @@ If you would like to use the application in your local environment:
 
 5. Run command ```node server``` to get started
 
-Otherwise, visit the deployed application here
+Otherwise, visit the deployed application <a href="https://gitworkd.herokuapp.com/">here</a>
 
 ## Usage
+#### Sign In
+<img src = "public/assets/img/signin.png" alt="gitworkd sign in screenshot">
+When you click the "Sign In With GitHub" button, you are authorizing GitWorkd to retrieve your GitHub information.  If successful, you will be redirected to the main feed, which displays your GitHub information and repos that other users have posted.
+
+#### Add Repos
+<img src = "public/assets/img/add.png" alt="gitworkd add repos screenshot">
+This is where you are able to add your own GitHub repos.  Upon pageload, our application fetches your repository information via the GitHub API,and displays it.  Simply select all the repos you want other users to see on the main feed, and click submit.  You can select multiple repos at a time and they will all be added.
+
+#### Main Feed
+<img src = "public/assets/img/main.png" alt="gitworkd main feed screenshot">
+This is our main feed and the bulk of our application.  You are able to view other repos that users have posted, see which languages are used in their applications, and save them to your saved repos page.  Notice that you will not see your added repos on the main feed, however, other users will be able to view them on their personal feed.
+
+#### Saved Repos
+<img src = "public/assets/img/saved.png" alt="gitworkd saved repos screenshot">
+With our saved repos page, you are able to log repos that you are interested in collaborating with. In a simple table format, the repos will be listed with the title, author, and link for you to view the GitHub repository. 
 
 
 ## Resources
